@@ -13,6 +13,8 @@
 		689B83B224046BCC0013888A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689B83B024046BCC0013888A /* Main.storyboard */; };
 		689B83B424046BCD0013888A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689B83B324046BCD0013888A /* Assets.xcassets */; };
 		689B83B724046BCD0013888A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689B83B524046BCD0013888A /* LaunchScreen.storyboard */; };
+		689B83BF24102A2B0013888A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689B83BE24102A2B0013888A /* Card.swift */; };
+		689B83C12411A9120013888A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689B83C02411A9120013888A /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		689B83B324046BCD0013888A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		689B83B624046BCD0013888A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		689B83B824046BCD0013888A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689B83BE24102A2B0013888A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		689B83C02411A9120013888A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				689B83AA24046BCC0013888A /* AppDelegate.swift */,
+				689B83BE24102A2B0013888A /* Card.swift */,
+				689B83C02411A9120013888A /* Model.swift */,
 				689B83AC24046BCC0013888A /* SceneDelegate.swift */,
 				689B83AE24046BCC0013888A /* ViewController.swift */,
 				689B83B024046BCC0013888A /* Main.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				689B83C12411A9120013888A /* Model.swift in Sources */,
 				689B83AF24046BCC0013888A /* ViewController.swift in Sources */,
 				689B83AB24046BCC0013888A /* AppDelegate.swift in Sources */,
 				689B83AD24046BCC0013888A /* SceneDelegate.swift in Sources */,
+				689B83BF24102A2B0013888A /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

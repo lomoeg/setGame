@@ -21,12 +21,18 @@
                                 <viewLayoutGuide key="safeArea" id="XsR-jL-yFK"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Deal 3 More Cards"/>
+                                <connections>
+                                    <action selector="add3MoreCardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vS3-ny-AUW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" verticalCompressionResistancePriority="752" placeholderIntrinsicWidth="161" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pWC-iy-p9H">
                                 <rect key="frame" x="233" y="792" width="161" height="50"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="New Game"/>
+                                <connections>
+                                    <action selector="newGameButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="scQ-k6-W35"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="751" text="Score: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tX-XT-wmJ">
                                 <rect key="frame" x="20" y="717" width="374" height="60"/>
@@ -51,6 +57,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ihr-sl-RIH"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZC-vQ-vYy">
                                                         <rect key="frame" x="94.5" y="0.0" width="91" height="72"/>
@@ -59,6 +68,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6oF-Fz-kVu"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bz8-aC-Vn8">
                                                         <rect key="frame" x="188.5" y="0.0" width="91.5" height="72"/>
@@ -67,6 +79,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NCH-CX-j5D"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZ1-D9-aoD">
                                                         <rect key="frame" x="283" y="0.0" width="91" height="72"/>
@@ -75,6 +90,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="loU-ke-mRZ"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -88,6 +106,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G7S-jY-tqQ"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w93-AB-wgL">
                                                         <rect key="frame" x="94.5" y="0.0" width="91" height="72"/>
@@ -96,6 +117,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7I2-Y7-N7T"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNL-gb-IqU">
                                                         <rect key="frame" x="188.5" y="0.0" width="91.5" height="72"/>
@@ -104,6 +128,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W1X-wj-4Nx"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pj-0z-3Ef">
                                                         <rect key="frame" x="283" y="0.0" width="91" height="72"/>
@@ -112,6 +139,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4UK-bV-jZG"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -125,6 +155,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zFD-zj-pce"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R49-Pg-hyL">
                                                         <rect key="frame" x="94.5" y="0.0" width="91" height="72"/>
@@ -133,6 +166,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fCn-Vc-YIB"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zM-yX-0vz">
                                                         <rect key="frame" x="188.5" y="0.0" width="91.5" height="72"/>
@@ -141,6 +177,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KGA-DF-YfD"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UWA-EL-BIU">
                                                         <rect key="frame" x="283" y="0.0" width="91" height="72"/>
@@ -149,6 +188,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gtf-pq-FTK"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -167,6 +209,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tik-pB-KD5"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxi-Wg-89t">
                                                         <rect key="frame" x="94.5" y="0.0" width="91" height="72"/>
@@ -175,6 +220,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="guv-5W-tb9"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fY3-Wh-yEb">
                                                         <rect key="frame" x="188.5" y="0.0" width="91.5" height="72"/>
@@ -183,6 +231,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="snV-bX-PHS"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIO-RK-j9L">
                                                         <rect key="frame" x="283" y="0.0" width="91" height="72"/>
@@ -191,6 +242,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mJi-eN-ocl"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -204,6 +258,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VOj-SW-AMg"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNa-qk-6YM">
                                                         <rect key="frame" x="94.5" y="0.0" width="91" height="72"/>
@@ -212,6 +269,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WFs-Ph-EOI"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ix3-Ra-wE3">
                                                         <rect key="frame" x="188.5" y="0.0" width="91.5" height="72"/>
@@ -220,6 +280,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N0U-wq-One"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tjf-bA-MiY">
                                                         <rect key="frame" x="283" y="0.0" width="91" height="72"/>
@@ -228,6 +291,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jv8-gm-6zo"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -241,6 +307,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HYf-LS-jf8"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hv8-RP-Iii">
                                                         <rect key="frame" x="94.5" y="0.0" width="91" height="72"/>
@@ -249,6 +318,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ioZ-Na-zkV"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QDQ-6e-0yl">
                                                         <rect key="frame" x="188.5" y="0.0" width="91.5" height="72"/>
@@ -257,6 +329,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="56b-TR-eXQ"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KlE-kC-Oaz">
                                                         <rect key="frame" x="283" y="0.0" width="91" height="72"/>
@@ -265,6 +340,9 @@
                                                         <state key="normal" title="?">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="cardTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TDf-6J-jov"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -290,6 +368,33 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="scoreLabel" destination="7tX-XT-wmJ" id="n3H-eQ-yh9"/>
+                        <outletCollection property="cardButtons" destination="MIV-MB-5oX" collectionClass="NSMutableArray" id="MiT-iG-d06"/>
+                        <outletCollection property="cardButtons" destination="ZZC-vQ-vYy" collectionClass="NSMutableArray" id="xCR-T6-HAy"/>
+                        <outletCollection property="cardButtons" destination="bz8-aC-Vn8" collectionClass="NSMutableArray" id="IAS-aE-Ijm"/>
+                        <outletCollection property="cardButtons" destination="cZ1-D9-aoD" collectionClass="NSMutableArray" id="ytm-us-tom"/>
+                        <outletCollection property="cardButtons" destination="g4W-JJ-zGv" collectionClass="NSMutableArray" id="Sth-uO-KGI"/>
+                        <outletCollection property="cardButtons" destination="w93-AB-wgL" collectionClass="NSMutableArray" id="O9E-Oa-9iP"/>
+                        <outletCollection property="cardButtons" destination="FNL-gb-IqU" collectionClass="NSMutableArray" id="7VS-pq-U2H"/>
+                        <outletCollection property="cardButtons" destination="4pj-0z-3Ef" collectionClass="NSMutableArray" id="m3g-Yb-IiF"/>
+                        <outletCollection property="cardButtons" destination="h0t-ky-qa0" collectionClass="NSMutableArray" id="t8j-M7-xQA"/>
+                        <outletCollection property="cardButtons" destination="R49-Pg-hyL" collectionClass="NSMutableArray" id="53C-ZU-40W"/>
+                        <outletCollection property="cardButtons" destination="5zM-yX-0vz" collectionClass="NSMutableArray" id="h7J-rA-l7v"/>
+                        <outletCollection property="cardButtons" destination="UWA-EL-BIU" collectionClass="NSMutableArray" id="OdB-Zw-f1l"/>
+                        <outletCollection property="cardButtons" destination="DSy-uT-CrY" collectionClass="NSMutableArray" id="6eL-7b-buL"/>
+                        <outletCollection property="cardButtons" destination="fxi-Wg-89t" collectionClass="NSMutableArray" id="6Lk-o7-ZkA"/>
+                        <outletCollection property="cardButtons" destination="fY3-Wh-yEb" collectionClass="NSMutableArray" id="ID5-tV-VDj"/>
+                        <outletCollection property="cardButtons" destination="gIO-RK-j9L" collectionClass="NSMutableArray" id="Cd7-5G-fGY"/>
+                        <outletCollection property="cardButtons" destination="ySM-kT-U5a" collectionClass="NSMutableArray" id="L8z-cl-wpn"/>
+                        <outletCollection property="cardButtons" destination="GNa-qk-6YM" collectionClass="NSMutableArray" id="VhD-I4-uRm"/>
+                        <outletCollection property="cardButtons" destination="ix3-Ra-wE3" collectionClass="NSMutableArray" id="Edt-8v-21v"/>
+                        <outletCollection property="cardButtons" destination="Tjf-bA-MiY" collectionClass="NSMutableArray" id="a6e-rL-8nv"/>
+                        <outletCollection property="cardButtons" destination="zup-Q1-Rys" collectionClass="NSMutableArray" id="AaQ-1x-olb"/>
+                        <outletCollection property="cardButtons" destination="hv8-RP-Iii" collectionClass="NSMutableArray" id="Agg-mL-v6R"/>
+                        <outletCollection property="cardButtons" destination="QDQ-6e-0yl" collectionClass="NSMutableArray" id="j1c-Bb-xgS"/>
+                        <outletCollection property="cardButtons" destination="KlE-kC-Oaz" collectionClass="NSMutableArray" id="4NP-Yr-9lp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" id="dwv-jv-QpL">
